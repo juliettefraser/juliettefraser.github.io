@@ -1,0 +1,390 @@
+
+/* For All Pages */
+
+.wrapper {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 10fr;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color:#d8d3ea;
+}
+
+h1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 1rem;
+    text-align: center;
+    color: black;
+    font-size: 5rem;
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+nav li{ 
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+nav a:hover {
+    color: #842D47;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.2rem;
+}
+
+p {
+    padding: 0.8rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+
+/* Contact Page */
+
+.contact-main{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.5fr;
+    grid-template-rows: 0.1fr;
+
+}
+
+.contact-header{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 1.3rem;
+
+}
+
+.contact-paragraph{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    line-height: 2;
+}
+
+.contact-main a:link{
+    color: #4E4E6E;
+    text-decoration: underline;
+}
+
+.contact-main a:visited{
+    color:#4E4E6E;
+}
+
+.contact-main a:hover{
+    color: #842D47;
+    text-decoration: underline;
+}
+
+
+/* About Me */
+
+.about-me-main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 0.2fr 2fr;
+    padding-right: 15vw;
+}
+
+.heading-about{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.about-paragraphs {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    line-height: 1.5;
+}
+
+.about-image {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+/* Resume Page */
+
+.resume-main{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 1fr;
+    grid-template-rows: .1fr 0.1fr .5fr 0.5fr 0.5fr;
+}
+
+.resume-heading{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.resume-pdf{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.resume-main a:link{
+    color: #4E4E6E;
+    text-decoration: none;
+}
+
+.resume-main a:visited{
+    color: #4E4E6E;
+}
+
+.resume-main a:hover{
+    color: #842D47;
+    text-decoration: none;
+}
+
+.resume-education{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start:3;
+    grid-row-end: 4;
+    padding: 1rem;
+}
+
+h3{ 
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem; 
+}
+
+li{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+
+.resume-work-experience{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start:4;
+    grid-row-end: 5;
+    padding: 1rem;
+}
+
+.resume-skills{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start:5;
+    grid-row-end: 6;
+    padding: 1rem;
+}
+
+/* Home Page */
+
+.home-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 2rem;
+}
+
+.image1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:2;  
+}
+
+.image2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:2;
+}
+
+.image3{
+    grid-column-start:3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end:2;
+}
+
+.figcaption{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;  
+    font-size: 0.7rem;
+    margin-left: auto;
+}
+
+.home-main a:link{
+    color: #4E4E6E;
+    text-decoration: none;
+}
+
+.home-main a:visited{
+    color: #4E4E6E;
+}
+
+.home-main a:hover{
+    color: #842D47;
+    text-decoration: none;
+}
+
+.home-main img{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.welcome{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-top: 4rem;   
+}
+
+/* Portfolio Page */
+
+.portfolio-main{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.3fr;
+    grid-template-rows: .2fr 1fr 1fr 1fr 1fr;
+    padding-left: 1.5rem;
+}
+
+.heading-portfolio{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.manual-picture{
+    grid-column-start:1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.proposal-picture{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.paper-image{
+    grid-column-start:1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.paper2-image{
+    grid-column-start:1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.portfolio-main img{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.manual{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    line-height: 1.5;
+}
+
+.proposal{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    line-height: 1.5;
+}
+
+.paper{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    line-height: 1.5;
+}
+
+.paper2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    line-height: 1.5;
+}
+
+.portfolio-main a:link{
+    color: #4E4E6E;
+    text-decoration: none;
+}
+
+.portfolio-main a:visited{
+    color: #4E4E6E;
+}
+
+.portfolio-main a:hover{
+    color: #842D47;
+    text-decoration: none;
+}
+

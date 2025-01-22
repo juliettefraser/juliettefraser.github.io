@@ -1,0 +1,41 @@
+h2 {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 12px;
+    margin: 0px;
+}
+
+nav li {
+    list-style-type: none;
+    background-color:black;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: lightgray;
+    padding: 1.5rem;
+}
+
+nav a:hover {
+    color: palegoldenrod;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 25px;
+    margin: 0;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+
+}

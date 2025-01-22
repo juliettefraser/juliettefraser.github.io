@@ -1,0 +1,57 @@
+body {
+    font-family: "Namdhinggo", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f2bca6;
+}
+
+h1 {
+    color: #000000;
+    background-color:#719bac; 
+    padding: 18px;
+    letter-spacing: 0.5rem;
+    font-family: "Annie Use Your Telescope", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+      
+    
+    
+p {
+    color: #2F596A;
+    margin: 15px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 2rem;
+    font-family: "Namdhinggo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+h2 {
+    color: #000000;
+    background-color:#719bac; 
+    padding: 8px;
+    font-family: "Annie Use Your Telescope", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: lowercase;
+}
+
+a:visited {
+    color: #2d6d45;
+}
+
+a:hover{
+
+    color: #5e5aab;
+    text-decoration: underline;
+
+}
+
+
+
+

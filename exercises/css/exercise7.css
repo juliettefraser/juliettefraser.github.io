@@ -1,0 +1,76 @@
+body {
+    margin: 0 auto;
+    max-width: 1000px;
+    color: #202020;
+    background-color: #F7F6ED;
+}
+
+p {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #D3D3D3;
+    background-color: #ffffff;
+    padding: 1.3rem;
+}
+
+h1 {
+    color: black;
+    font-family: "Zeyada", cursive;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.3rem;
+}
+
+a.button:link {
+    color: #2E664B;
+    border: 1px solid #2E664B;
+    background-color: #E4EDE8;
+    padding: 10px;
+    position: relative;
+    bottom: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    filter: drop-shadow(.3rem .3rem 0.2rem #c7c7c7);
+}
+
+a.button:visited {
+    color: #185675;
+    border: 1px solid #185675;
+    background-color: #e5eff4 ;
+    padding: 10px;
+    position: relative;
+    bottom: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    filter: drop-shadow(.3rem .3rem 0.2rem #c7c7c7);
+}
+
+a.button:hover {
+    color: #863548;
+    border: 1px solid #863548;
+    background-color: #f8edf0;
+    padding: 10px;
+    position: relative;
+    bottom: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    filter: drop-shadow(.3rem .3rem 0.2rem #c7c7c7);
+}
+
+a.button:active {
+    color: #5A2A72;
+    border: 1px solid #5A2A72;
+    background-color: #f1e5f7;
+    padding: 10px;
+    position: relative;
+    bottom: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    filter: drop-shadow(.3rem .3rem 0.2rem #c7c7c7);  
+}
+
+main {
+    background-color: #e6f2ef;
+    padding: 25px;
+    border: solid #ffffff 2px;
+}
